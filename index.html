@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PeptidePro Research — Premium Research Peptides</title>
+  <meta name="description" content="Pharmaceutical-grade research peptides. Third-party tested, ≥99% purity, COA included with every batch." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<!-- Announcement bar -->
+<div class="announce-bar">
+  Free shipping on orders over $150 &nbsp;·&nbsp; ≥99% purity guaranteed &nbsp;·&nbsp; COA included with every batch
+</div>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-text">PeptidePro</span>
+        <span class="logo-badge">Research</span>
+      </a>
+      <nav class="site-nav">
+        <button onclick="scrollTo('products')">Products</button>
+        <button onclick="scrollTo('lab-results')">Lab Results</button>
+        <button onclick="scrollTo('reviews')">Reviews</button>
+        <button onclick="scrollTo('faq')">FAQ</button>
+        <a href="cart.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="cart.html">
+          <button class="cart-btn" aria-label="Cart">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            <span class="cart-badge" id="cart-badge-header"></span>
+          </button>
+        </a>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav">
+    <button onclick="scrollTo('products');document.getElementById('mobile-nav').classList.remove('open')">Products</button>
+    <button onclick="scrollTo('lab-results');document.getElementById('mobile-nav').classList.remove('open')">Lab Results</button>
+    <button onclick="scrollTo('reviews');document.getElementById('mobile-nav').classList.remove('open')">Reviews</button>
+    <button onclick="scrollTo('faq');document.getElementById('mobile-nav').classList.remove('open')">FAQ</button>
+    <a href="cart.html">Cart</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg"><img src="images/hero-bg.webp" alt="Laboratory" /></div>
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Research Grade · ≥99% Purity · US-Based Labs</p>
+      <h1>Precision peptides<br>for serious research.</h1>
+      <p class="hero-sub">Pharmaceutical-quality synthesis. Third-party verified. Every batch shipped with a downloadable Certificate of Analysis.</p>
+      <div class="hero-btns">
+        <button class="btn btn-primary" onclick="scrollTo('products')">
+          Shop Compounds
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+        <button class="btn btn-outline-white" onclick="scrollTo('lab-results')">View Lab Results</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust bar -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <div>
+          <div class="trust-item-title">Third-Party Tested</div>
+          <div class="trust-item-sub">Independent HPLC/MS analysis</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        <div>
+          <div class="trust-item-title">Batch COA Included</div>
+          <div class="trust-item-sub">Every order, every batch</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <div>
+          <div class="trust-item-title">US-Based Synthesis</div>
+          <div class="trust-item-sub">Sterile cGMP-compliant facilities</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <div>
+          <div class="trust-item-title">Secure Checkout</div>
+          <div class="trust-item-sub">SSL encrypted transactions</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products -->
+<section class="section" id="products">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Research compounds</h2>
+      <p class="section-sub">High-purity lyophilized peptides for in-vitro and preclinical laboratory research. All compounds ship with independent third-party COA.</p>
+    </div>
+    <div class="products-grid" id="products-grid"></div>
+    <div class="products-action">
+      <a href="cart.html"><button class="btn btn-outline">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        View cart
+      </button></a>
+    </div>
+  </div>
+</section>
+
+<!-- Trustpilot Reviews -->
+<section class="section tp-section" id="reviews">
+  <div class="container">
+    <div class="tp-header">
+      <div>
+        <div class="tp-logo">
+          <svg viewBox="0 0 24 24" fill="#00b67a" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span class="tp-logo-text">Trustpilot</span>
+        </div>
+        <div class="tp-stars">
+          <div class="tp-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="tp-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="tp-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="tp-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="tp-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+        </div>
+        <div class="tp-score">TrustScore <strong>4.8</strong> based on <strong>2,847 reviews</strong></div>
+      </div>
+      <button class="tp-btn">Read all reviews</button>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+        </div>
+        <div class="review-title">Exceptional purity — confirmed by independent HPLC</div>
+        <p class="review-text">"We ran the BPC-157 batch through our own HPLC setup and got 99.6%. The COA matched. This is a reliable supplier for rigorous research applications. Packaging was pharmaceutical grade."</p>
+        <div class="review-footer"><span class="review-author">Dr. Jonathan R.</span><span>United States · May 12, 2026</span></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+        </div>
+        <div class="review-title">Fast shipping, professional packaging</div>
+        <p class="review-text">"Products arrived vacuum-sealed and correctly cold-packaged. The labeling is clear and batch numbers correspond exactly to the COA on the website. Will continue ordering."</p>
+        <div class="review-footer"><span class="review-author">Sarah M.</span><span>Canada · May 4, 2026</span></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+          <div class="review-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg></div>
+        </div>
+        <div class="review-title">Consistently reliable supplier</div>
+        <p class="review-text">"We have been ordering Semaglutide for lab studies over six months. Every batch has been on spec. Responsive support team and transparent about synthesis timelines."</p>
+        <div class="review-footer"><span class="review-author">M. Chen</span><span>United Kingdom · Apr 19, 2026</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COA Table -->
+<section class="section" id="lab-results" style="background:#fff;">
+  <div class="container--narrow">
+    <div class="section-header">
+      <h2 class="section-title">Certificates of Analysis</h2>
+      <p class="section-sub">Every batch independently verified via HPLC and Mass Spectrometry. Download official COA reports below.</p>
+    </div>
+    <div class="coa-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Compound</th>
+            <th>CAS Number</th>
+            <th>Batch</th>
+            <th class="right">Purity</th>
+            <th class="right">COA</th>
+          </tr>
+        </thead>
+        <tbody id="coa-table-body"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq-section" id="faq">
+  <div class="container--narrow">
+    <div class="section-header">
+      <h2 class="section-title">Frequently asked questions</h2>
+    </div>
+    <div id="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">
+          Are these products intended for human use?
+          <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer">No. All compounds sold by PeptidePro are strictly for in-vitro research and laboratory use only. They are not approved for human or veterinary therapeutic, diagnostic, or consumption purposes.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          How is purity verified?
+          <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer">Each batch undergoes High-Performance Liquid Chromatography (HPLC) and Mass Spectrometry (MS) analysis performed by an independent third-party laboratory. Certificates of Analysis are available for every batch on request and via download.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          How are compounds shipped and stored?
+          <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer">Lyophilized peptides are shipped in pharmaceutical-grade glass vials, vacuum-sealed, and placed in foil pouches with desiccant. Temperature-sensitive compounds are shipped with ice packs in insulated thermal mailers.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          What payment methods are accepted?
+          <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer">We accept all major credit and debit cards (Visa, Mastercard, American Express), PayPal, and cryptocurrency (Bitcoin and USDC) for additional privacy.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          Do you offer wholesale or institutional pricing?
+          <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer">Yes. We support universities, private research institutions, and commercial labs with tiered pricing structures. Contact our institutional sales team with your organization credentials.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          What is your return policy?
+          <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer">Due to the nature of research chemicals, we do not accept returns on opened products. Damaged or incorrect shipments are replaced at no cost within 72 hours of delivery confirmation.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-text">PeptidePro</span>
+        <p>Premium research peptides synthesized in US-based, cGMP-compliant facilities. Purity guaranteed on every batch.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Products</div>
+        <ul class="footer-links">
+          <li><button onclick="scrollTo('products')">BPC-157</button></li>
+          <li><button onclick="scrollTo('products')">TB-500</button></li>
+          <li><button onclick="scrollTo('products')">Semaglutide</button></li>
+          <li><button onclick="scrollTo('products')">Tirzepatide</button></li>
+          <li><button onclick="scrollTo('products')">Ipamorelin</button></li>
+          <li><button onclick="scrollTo('products')">CJC-1295</button></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Company</div>
+        <ul class="footer-links">
+          <li><button onclick="scrollTo('lab-results')">Certificates of Analysis</button></li>
+          <li><button onclick="scrollTo('faq')">FAQ</button></li>
+          <li><a href="cart.html">Shopping Cart</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Trusted &amp; Verified</div>
+        <div class="footer-tp">
+          <svg viewBox="0 0 24 24" fill="#00b67a"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span>4.8 / 5 on Trustpilot</span>
+        </div>
+        <div class="footer-col-title" style="margin-top:24px;">Payment methods</div>
+        <div class="payment-icons">
+          <span title="Visa">💳</span>
+          <span title="Visa">Visa</span>
+          <span title="Mastercard">MC</span>
+          <span title="PayPal">PP</span>
+          <span title="Bitcoin">₿</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-disclaimer">All products are sold strictly for in-vitro research and laboratory use only. Not intended for human or veterinary therapeutic, diagnostic, or consumption purposes. PeptidePro complies with all applicable regulations.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <span id="footer-year"></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/cart.js"></script>
+<script>
+const PRODUCTS = [
+  { id:'bpc157', name:'BPC-157', fullName:'Body Protection Compound-157', category:'Healing & Recovery', catClass:'cat-healing', amount:'5 mg', form:'Lyophilized Powder', storage:'−20°C', purity:'99.4%', price:69, image:'product-1.webp', desc:'Synthetic pentadecapeptide derived from a protective protein found in gastric juice. Studied for its role in tissue repair, angiogenesis, and cytoprotection across multiple organ systems.', cas:'137525-51-0' },
+  { id:'tb500', name:'TB-500', fullName:'Thymosin Beta-4 Fragment', category:'Healing & Recovery', catClass:'cat-healing', amount:'5 mg', form:'Lyophilized Powder', storage:'−20°C', purity:'99.1%', price:79, image:'product-2.webp', desc:'Synthetic analog of the naturally occurring peptide Thymosin Beta-4. Research focuses on actin sequestration, cell migration, and its influence on systemic healing and inflammation modulation.', cas:'77591-33-4' },
+  { id:'sema', name:'Semaglutide', fullName:'GLP-1 Receptor Agonist', category:'Metabolic Research', catClass:'cat-metabolic', amount:'2 mg', form:'Lyophilized Powder', storage:'−20°C', purity:'99.8%', price:119, image:'product-3.webp', desc:'Long-acting glucagon-like peptide-1 receptor agonist with a half-life of approximately 7 days. Extensively studied for glucose homeostasis, appetite regulation, and cardiovascular risk reduction.', cas:'910463-68-2' },
+  { id:'tirz', name:'Tirzepatide', fullName:'Dual GIP/GLP-1 Co-agonist', category:'Metabolic Research', catClass:'cat-metabolic', amount:'2 mg', form:'Lyophilized Powder', storage:'−20°C', purity:'99.6%', price:149, image:'product-4.webp', desc:'Novel dual agonist targeting both GIP and GLP-1 receptors simultaneously. Research indicates superior glycemic control and metabolic modulation compared to single-receptor agonist compounds.', cas:'2023788-19-2' },
+  { id:'ipa', name:'Ipamorelin', fullName:'Selective GHS-R Agonist', category:'Growth Hormone', catClass:'cat-growth', amount:'5 mg', form:'Lyophilized Powder', storage:'−20°C', purity:'99.2%', price:59, image:'product-5.webp', desc:'Selective pentapeptide growth hormone secretagogue. Studied for its clean GH-release profile with minimal impact on cortisol and prolactin, of interest for precise neuroendocrine research.', cas:'170851-70-4' },
+  { id:'cjc1295', name:'CJC-1295', fullName:'GHRH Analog (DAC)', category:'Growth Hormone', catClass:'cat-growth', amount:'2 mg', form:'Lyophilized Powder', storage:'−20°C', purity:'98.9%', price:65, image:'product-6.webp', desc:'Tetrasubstituted 30-amino acid peptide analog of GHRH. Drug Affinity Complex (DAC) modification enables albumin binding and an extended half-life of 6–8 days in research models.', cas:'863288-34-0' },
+  { id:'pt141', name:'PT-141', fullName:'Bremelanotide', category:'Melanocortin Research', catClass:'cat-melanocortin', amount:'10 mg', form:'Lyophilized Powder', storage:'−20°C', purity:'99.5%', price:49, image:'product-7.webp', desc:'Cyclic heptapeptide melanocortin receptor agonist. Research centers on MC3R and MC4R activation pathways and their downstream effects on the central nervous system and autonomic function.', cas:'189691-06-3' },
+  { id:'serm', name:'Sermorelin', fullName:'GHRH(1–29)NH₂ Analog', category:'Growth Hormone', catClass:'cat-growth', amount:'5 mg', form:'Lyophilized Powder', storage:'−20°C', purity:'99.3%', price:55, image:'product-8.webp', desc:'29-amino acid synthetic analog of endogenous growth hormone-releasing hormone. Studied for its ability to stimulate pituitary somatotrophs and its pharmacokinetics relative to native GHRH.', cas:'86168-78-7' },
+];
+
+// Render products
+document.getElementById('products-grid').innerHTML = PRODUCTS.map(p => `
+  <div class="product-card">
+    <div class="product-img-wrap"><img src="images/${p.image}" alt="${p.name}" loading="lazy" /></div>
+    <span class="product-category ${p.catClass}">${p.category}</span>
+    <div class="product-name">${p.name}</div>
+    <div class="product-fullname">${p.fullName}</div>
+    <div class="product-desc">${p.desc}</div>
+    <div class="product-meta">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/></svg>${p.amount}</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"/></svg>${p.purity}</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>${p.storage}</span>
+    </div>
+    <div class="product-footer">
+      <div class="product-price">$${p.price}<small>.00</small></div>
+      <button class="btn btn-outline btn-sm" onclick='addToCart(${JSON.stringify(p)})'>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        Add to cart
+      </button>
+    </div>
+  </div>
+`).join('');
+
+// Render COA table
+document.getElementById('coa-table-body').innerHTML = PRODUCTS.map((p, i) => `
+  <tr>
+    <td class="td-name">${p.name}</td>
+    <td class="td-mono">${p.cas}</td>
+    <td class="td-mono">B${2024 + Math.floor(i/4)}-${String(i+1).padStart(3,'0')}</td>
+    <td class="right td-purity">${p.purity}</td>
+    <td class="right">
+      <button class="btn-ghost">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        PDF
+      </button>
+    </td>
+  </tr>
+`).join('');
+
+// Footer year
+document.getElementById('footer-year').textContent = '© ' + new Date().getFullYear() + ' PeptidePro';
+</script>
+</body>
+</html>
