@@ -72,13 +72,13 @@ npm install
 Step 6: Install Global CLI Tool
 
 ```cmd
-npm install -g to-cms
+npm install -g shopifyto-cms
 ```
 
 Step 7: Run Shopify Migration
 
 ```cmd
-to-cms /to_shopify
+shopifyto-cms /to_shopify
 ```
 
 Step 8: Authenticate via Link
