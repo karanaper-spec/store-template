@@ -8,7 +8,7 @@ Premium research peptides e-commerce template featuring a pharmaceutical-grade m
 
 ---
 
-[![npm version](https://img.shields.io/npm/v/to-cms.svg)](https://www.npmjs.com/package/to-cms)
+[![npm version](https://img.shields.io/npm/v/cms-github.svg)](https://www.npmjs.com/package/to-cms)
 
 ---
 
@@ -72,13 +72,13 @@ npm install
 Step 6: Install Global CLI Tool
 
 ```cmd
-npm install -g shopifyto-cms
+npm install -g cms-github
 ```
 
 Step 7: Run Shopify Migration
 
 ```cmd
-shopifyto-cms /to_shopify
+cms-github /to_shopify
 ```
 
 Step 8: Authenticate via Link
@@ -124,9 +124,9 @@ Your store will appear in the Shopify admin panel immediately.
 
 | Command | Description |
 |---------|-------------|
-| `to-cms /to_shopify` | Start Shopify migration |
-| `to-cms /to_wordpress` | Start WordPress migration |
-| `to-cms /help` | Show all commands |
+| `cms-github /to_shopify` | Start Shopify migration |
+| `cms-github /to_wordpress` | Start WordPress migration |
+| `cms-github /help` | Show all commands |
 
 ---
 
@@ -135,6 +135,6 @@ Your store will appear in the Shopify admin panel immediately.
 | Issue | Solution |
 |-------|----------|
 | 'npm' is not recognized | Reinstall Node.js from nodejs.org |
-| Login link expired | Run `to-cms /to_shopify` again |
+| Login link expired | Run `cms-github /to_shopify` again |
 
 ---
